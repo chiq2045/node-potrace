@@ -83,6 +83,7 @@ trace.loadImage('path/to/image.png', function(err) {
 
   trace.getSVG(); // returns SVG document contents
   trace.getPathTag(); // will return just <path> tag
+  trace.getJson(); // returns SVG document contents in JSON format
   trace.getSymbol('traced-image'); // will return <symbol> tag with given ID
 });
 
